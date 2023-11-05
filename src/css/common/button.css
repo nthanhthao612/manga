@@ -1,0 +1,47 @@
+.md.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vw;
+    height: 5vh;
+    font-family: Roboto;
+    font-size: 0.75vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.1vw;
+    color: var(--colour-secondary-white-100-general, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    border-radius: 0.15vw;
+    margin: 0.5vw;
+}
+
+.md.clickable {
+    color: var(--colour-main-blue-500, #505F98);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.3vw;
+    margin: 0.5vw;
+}
+
+.lg.icon-button {
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vw;
+    background-color: rgb(200, 200, 200);
+}
+
+.lg.icon-button img {
+    width: 1vw;
+    height: 1vw;
+}
+
+.hover.lg.icon-button{
+    background-color: violet;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0.1vw 0.2vw;
+}

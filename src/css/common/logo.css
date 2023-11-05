@@ -1,0 +1,27 @@
+.logo {
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.image-logo {
+    margin: 0.25vw;
+}
+
+.text-logo {
+    margin: 0.25vw;
+}
+
+.text-logo p {
+    font-size: 2vw;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

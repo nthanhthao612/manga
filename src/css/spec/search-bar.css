@@ -1,0 +1,67 @@
+.lg.search-bar {
+    height: 3vh;
+    width: 40vw;
+    padding: 0.5vw;
+    background-color: rgb(200, 200, 200);
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0.1vw 0.2vw;
+}
+
+.lg.search-bar-list-item {
+    padding: 0.1vw;
+    margin-top: 1.2vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 40vw;
+    height: 40vh;
+    background-color: rgb(200, 200, 200);
+}
+
+.lg.search-bar-input {
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.lg.search-bar-input input {
+    display: flex;
+    align-items: center;
+    border-radius: 1vw;
+    width: 35vw;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 80%;
+
+}
+
+.lg.search-bar-item {
+    padding: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5vw;
+    padding: 0.5vw;
+}
+
+.hover.lg.search-bar-item {
+    background-color: rgb(225, 225, 225);
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0.1vw 0.2vw;
+}
+
+.lg.search-bar-item p {
+    font-size: 80%;
+    margin: 0.5vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lg.search-bar-item img {
+    height: 4vw;
+    width: 4vw;
+}

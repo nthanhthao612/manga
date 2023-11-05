@@ -1,0 +1,16 @@
+.navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.1vw 0.2vw;
+}

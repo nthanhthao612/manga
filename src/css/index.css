@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+.hidden{
+    display: none;
+}
